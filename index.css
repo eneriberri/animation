@@ -1,0 +1,44 @@
+/*BODY BORDERS*/
+#top, #bottom, #left, #right {
+  background: #E74C3C; /*navy blue*/
+  position: fixed;
+}
+
+#top, #bottom {
+  position: absolute;
+}
+
+#left, #right {
+  top: 0; bottom: 0;
+  width: 100px;
+}
+
+#top, #bottom {
+  left: 0; right: 0;
+  height: 100px;
+}
+
+#left { left: 0; }
+#right { right: 0; }
+
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+
+/* CONTENT */
+body {
+  padding: 100px;
+  background-color: #32475C; /*red*/
+  color: #ECF0F1;
+  font-family: 'Vollkorn', serif;
+  font-size: 34px;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+
+
