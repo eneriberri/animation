@@ -1,43 +1,102 @@
-/*BODY BORDERS*/
-#top, #bottom, #left, #right {
-  background: #E74C3C; /*navy blue*/
-  position: fixed;
-}
-
-#top, #bottom {
-  position: absolute;
-}
-
-#left, #right {
-  top: 0; bottom: 0;
-  width: 100px;
-}
-
-#top, #bottom {
-  left: 0; right: 0;
-  height: 100px;
-}
-
-#left { left: 0; }
-#right { right: 0; }
-
-#top { top: 0; }
-#bottom { bottom: 0; }
-
-
 /* CONTENT */
 body {
-  padding: 100px;
-  background-color: #32475C; /*red*/
-  color: #ECF0F1;
-  font-family: 'Vollkorn', serif;
-  font-size: 34px;
+  font-family: 'Chivo', sans-serif;
   -webkit-font-smoothing: antialiased;
+/*  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0.5, #FFFFFF),
+    color-stop(0.5, #45AEFF)
+  );
+  background-image: -o-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
+  background-image: -moz-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
+  background-image: -webkit-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
+  background-image: -ms-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
+  background-image: linear-gradient(to right bottom, #FFFFFF 50%, #45AEFF 50%);*/
+/*  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right bottom,
+    color-stop(0.5, #FFFFFF),
+    color-stop(0.5, #3BB7FF)
+  );
+  background-image: -o-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
+  background-image: -moz-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
+  background-image: -webkit-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
+  background-image: -ms-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
+  background-image: linear-gradient(to right bottom, #FFFFFF 50%, #3BB7FF 50%);*/
 }
 
 .content {
-  letter-spacing: 3px;
+  letter-spacing: 5px;
   text-align: center;
+}
+
+
+
+@-webkit-keyframes rise {
+  0% {
+   margin-top: -140px;
+  }
+
+  50% {
+    margin-top: -100px;
+  }
+  
+  100% {
+    margin-top: -140px;
+  }    
+}
+
+
+.circle {
+  color: #222;
+  border: 20px solid #ffaf3f;
+  font-size: 48px;
+  background-color: white;
+  width: 220px;
+  height: 220px;
+	border-radius: 50%;
+  position: absolute;
+  left: 50%; top: 50%;
+  margin-top: -120px;
+  margin-left: -120px;
+  text-align: center;
+  line-height: 220px;
+  transition: background-color 0.3s ease,
+              color 0.3s ease;
+  /*-webkit-animation: rise 3s infinite; /* Safari 4+ */
+  /*-moz-animation:    rise 3s infinite; /* Fx 5+ */
+  /*-o-animation:      rise 3s infinite; /* Opera 12+ */
+  /*animation:         rise 3s infinite; /* IE 10+ */
+}
+
+.circle:hover {
+  background-color: #ffaf3f;
+  color: white;
+}
+
+
+#cir1, #cir2, #cir3 {
+  background-color: #FF9700;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  left: 40%;
+}
+
+#cir2 {
+  top: 30%;
+}
+
+#cir3 {
+  top: 60%;
+}
+
+#keyhole {
+  height: 40px;
+  width: auto;
 }
 
 
