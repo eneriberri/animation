@@ -2,30 +2,18 @@
 body {
   font-family: 'Chivo', sans-serif;
   -webkit-font-smoothing: antialiased;
-/*  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    color-stop(0.5, #FFFFFF),
-    color-stop(0.5, #45AEFF)
+  background-image: -webkit-gradient(
+  	linear,
+  	left top,
+  	left bottom,
+  	color-stop(0.5, #FFFFFF),
+  	color-stop(0.5, #1F1F1F)
   );
-  background-image: -o-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
-  background-image: -moz-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
-  background-image: -webkit-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
-  background-image: -ms-linear-gradient(right bottom, #FFFFFF 50%, #45AEFF 50%);
-  background-image: linear-gradient(to right bottom, #FFFFFF 50%, #45AEFF 50%);*/
-/*  background-image: -webkit-gradient(
-    linear,
-    left top,
-    right bottom,
-    color-stop(0.5, #FFFFFF),
-    color-stop(0.5, #3BB7FF)
-  );
-  background-image: -o-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
-  background-image: -moz-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
-  background-image: -webkit-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
-  background-image: -ms-linear-gradient(right bottom, #FFFFFF 50%, #3BB7FF 50%);
-  background-image: linear-gradient(to right bottom, #FFFFFF 50%, #3BB7FF 50%);*/
+  background-image: -o-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
+  background-image: -moz-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
+  background-image: -ms-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
+  background-image: linear-gradient(to bottom, #FFFFFF 50%, #1F1F1F 50%);
 }
 
 .content {
@@ -52,7 +40,7 @@ body {
 
 .circle {
   color: #222;
-  border: 20px solid #ffaf3f;
+  border: 20px solid #1F1F1F;
   font-size: 48px;
   background-color: white;
   width: 220px;
@@ -65,7 +53,8 @@ body {
   text-align: center;
   line-height: 220px;
   transition: background-color 0.3s ease,
-              color 0.3s ease;
+              color 0.3s ease,
+              border 0.3s ease;
   /*-webkit-animation: rise 3s infinite; /* Safari 4+ */
   /*-moz-animation:    rise 3s infinite; /* Fx 5+ */
   /*-o-animation:      rise 3s infinite; /* Opera 12+ */
@@ -75,6 +64,7 @@ body {
 .circle:hover {
   background-color: #ffaf3f;
   color: white;
+  border: 20px solid #ffaf3f;
 }
 
 
