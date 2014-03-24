@@ -2,18 +2,18 @@
 body {
   font-family: 'Chivo', sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-image: -webkit-gradient(
-  	linear,
-  	left top,
-  	left bottom,
-  	color-stop(0.5, #FFFFFF),
-  	color-stop(0.5, #1F1F1F)
+/*  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.5, #FFFFFF),
+    color-stop(0.5, #1F1F1F)
   );
   background-image: -o-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
   background-image: -moz-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
   background-image: -webkit-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
   background-image: -ms-linear-gradient(bottom, #FFFFFF 50%, #1F1F1F 50%);
-  background-image: linear-gradient(to bottom, #FFFFFF 50%, #1F1F1F 50%);
+  background-image: linear-gradient(to bottom, #FFFFFF 50%, #1F1F1F 50%);*/
 }
 
 .content {
@@ -72,7 +72,8 @@ body {
   background-color: #FF9700;
   width: 60px;
   height: 60px;
-  border-radius: 30px;
+  border-radius: 50%;
+  border: none;
   left: 40%;
 }
 
