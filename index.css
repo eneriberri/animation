@@ -21,8 +21,6 @@ body {
   text-align: center;
 }
 
-
-
 @-webkit-keyframes rise {
   0% {
    margin-top: -140px;
@@ -55,10 +53,10 @@ body {
   transition: background-color 0.3s ease,
               color 0.3s ease,
               border 0.3s ease;
-  /*-webkit-animation: rise 3s infinite; /* Safari 4+ */
-  /*-moz-animation:    rise 3s infinite; /* Fx 5+ */
-  /*-o-animation:      rise 3s infinite; /* Opera 12+ */
-  /*animation:         rise 3s infinite; /* IE 10+ */
+  -webkit-animation: rise 3s infinite; /* Safari 4+ */
+  -moz-animation:    rise 3s infinite; /* Fx 5+ */
+  -o-animation:      rise 3s infinite; /* Opera 12+ */
+  animation:         rise 3s infinite; /* IE 10+ */
 }
 
 .circle:hover {
