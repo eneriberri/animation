@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
   <link href='http://fonts.googleapis.com/css?family=Gilda+Display' rel='stylesheet' type='text/css'>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="index1.css" rel="stylesheet">
 </head>
 <body>
@@ -9,7 +10,19 @@
     i
     <hr>
     irene
-</div>  
+</div>
+<div class="intro">
+    Software Engineer working in Silicon Valley.
+    <p></p>
+    When I'm not working, I'm either (1) doodling, (2) playing Guild Wars, or (3) making my many diabolical ideas come to life :)  
+    <p></p>
+    <div class="icons">
+      <i class="fa fa-github-square"></i> 
+      <i class="fa fa-linkedin-square"></i> 
+      <i class="fa fa-twitter-square"></i>
+    </div>
+</div>
+  
   <script src="jquery-1.11.0.min.js"></script>
   <script>
   $(document).ready(function() {
@@ -22,7 +35,10 @@
       "padding": "50px"
     }
     
-    $('.bg').animate(cssOptions, 1000);
+    setTimeout(function() {
+      $('.bg').animate(cssOptions, 1000);
+    }, 500);
+    
   });
   
   </script>
