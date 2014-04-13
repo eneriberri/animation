@@ -16,10 +16,6 @@ body {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.logo:hover {
-  background-color: #ffc44f;
-}
-
 .logo {
   font-family: 'Gilda Display', serif;
   font-size: 28px;
@@ -34,6 +30,10 @@ body {
   color: white;
   padding: 50px;
   transition: background-color 0.5s ease;
+}
+
+.logo:hover {
+  background-color: #ffc44f;
 }
 
 .logo:first-letter {
@@ -66,4 +66,9 @@ hr {
 
 .icons {
   text-align: center;
+  color: #ffc44f;
+}
+
+a {
+  color: black;
 }
