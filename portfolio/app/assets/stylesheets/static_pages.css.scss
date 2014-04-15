@@ -1,0 +1,75 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: 'Gilda Display', serif;
+}
+
+.bg {
+  position: absolute;
+  top: 25%; left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-top: -25px;
+  margin-left: -25px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+  font-family: 'Gilda Display', serif;
+  font-size: 28px;
+  text-align: center;
+  width: 100px;
+  height: 200px;
+  position: absolute;
+  top: 25%; left: 50%;
+  margin-top: -150px;
+  margin-left: -100px;
+  letter-spacing: 3px;
+  color: white;
+  padding: 50px;
+  transition: background-color 0.5s ease;
+  &:hover {
+    background-color: #ffc44f;
+  }
+  &:first-letter {
+    font-size: 150px;
+  }
+}
+
+hr {
+  margin-top: -10px;
+  border: 1px solid white;
+}
+
+.intro {
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 200px;
+  margin-left: -100px;
+  text-align: justify;
+}
+
+.fa {
+  font-size: 32px;
+  opacity: 0.8;
+  margin: 15px;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #ffc44f;
+  }
+}
+
+.icons {
+  text-align: center;
+  color: #ffc44f;
+}
+
+a {
+  color: black;
+}
