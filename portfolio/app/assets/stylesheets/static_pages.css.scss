@@ -33,6 +33,7 @@ body {
   letter-spacing: 3px;
   color: white;
   padding: 50px;
+  cursor: none;
   transition: background-color 0.5s ease;
   &:hover {
     background-color: #ffc44f;
@@ -53,6 +54,10 @@ hr {
   width: 200px;
   margin-left: -100px;
   text-align: justify;
+}
+
+.about {
+  min-height: 300px;
 }
 
 .fa {
