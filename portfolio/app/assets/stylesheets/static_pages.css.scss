@@ -8,6 +8,11 @@ html {
 
 body {
   font-family: 'Gilda Display', serif;
+  background: url('japancity_art_opaque.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .bg {
@@ -54,10 +59,6 @@ hr {
   width: 200px;
   margin-left: -100px;
   text-align: justify;
-}
-
-.about {
-  min-height: 300px;
 }
 
 .fa {
