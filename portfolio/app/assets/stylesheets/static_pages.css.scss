@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Gilda Display', serif;
-  background: url('japancity_art_opaque.jpg') no-repeat center center fixed; 
+  background: url('japancity_art_opaque2.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -22,6 +22,7 @@ body {
 }
 
 .logo {
+  margin-top: 30px;
   font-family: 'Gilda Display', serif;
   font-size: 28px;
   text-align: center;
@@ -29,6 +30,7 @@ body {
   color: white;
   padding: 50px;
   cursor: none;
+  background-color: rgba(0, 0, 0, 0.7);
   transition: background-color 0.5s ease;
   &:hover {
     background-color: #ffc44f;
@@ -39,12 +41,13 @@ body {
 }
 
 hr {
-  margin-top: -10px;
+  margin-top: -5px;
   border: 1px solid white;
 }
 
 .intro {
   text-align: justify;
+  margin-top: 30px;
 }
 
 .fa {
